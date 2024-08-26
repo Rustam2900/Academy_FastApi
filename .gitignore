@@ -1,0 +1,61 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.idea
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+*.egg-info/
+
+# Python-specific logs, test output, etc.
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.manifest
+*.spec
+
+# SQLAlchemy database file
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+
+# macOS files
+.DS_Store
+
+# FastAPI-specific files
+alembic/versions/*
+alembic.ini
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Idea folder (JetBrains IDEs)
+.idea/
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+
+# MyPy type checker cache
+.mypy_cache/
+
+# Pytest cache
+.pytest_cache/
+
+# Test results
+junit-xml/
